@@ -1,7 +1,7 @@
 import SwaggerParser from "@apidevtools/swagger-parser";
 import type { OpenAPI } from "openapi-types";
 
-const COMMIT = "60373248859bd45d8a3d953172bc3c5e4e352759";
+const COMMIT = "a71e53cbaaa6d40131b44ab3a917d1b480d86262";
 let schema: OpenAPI.Document | undefined;
 
 export const getSchema = async () => {
